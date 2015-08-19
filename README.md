@@ -21,7 +21,7 @@ web-archive-triage
 
         ./mementoweb-check.sh urls-present.txt urls-missing.txt < urls.txt
 
-* `archiveis-check.sh` - takes a list of URLs on standard input and checks for the presence of at least one snapshot in [archive.is](http://archive.is/) via [the Memento API](http://mementoweb.org/depot/native/archiveis/).
+ * `archiveis-check.sh` - takes a list of URLs on standard input and checks for the presence of at least one snapshot in [archive.is](http://archive.is/) via [the Memento API](http://mementoweb.org/depot/native/archiveis/).
 
         ./archiveis-check.sh urls-present.txt urls-missing.txt < urls.txt
 
