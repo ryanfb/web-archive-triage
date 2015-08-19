@@ -17,3 +17,7 @@ web-archive-triage
 
         ./wayback-save.sh < urls-missing.txt
 
+ * `mementoweb-check.sh` - takes a list of URLs on standard input and checks for the presence of at least one snapshot in any web archive known by the [mementoweb.org Time Travel service](http://timetravel.mementoweb.org/about/#find) via [the Memento API](http://timetravel.mementoweb.org/guide/api/#timegate).
+
+        ./mementoweb-check.sh urls-present.txt urls-missing.txt < urls.txt
+
