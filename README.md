@@ -15,7 +15,7 @@ web-archive-triage
 
  * `wayback-save.sh` - takes a list of URLs on standard input and submits them for saving by the Internet Archive Wayback Machine.
 
-        ./wayback-save.sh < urls-missing.txt
+        ./wayback-save.sh save-success.txt save-failure.txt < urls-missing.txt
 
  * `mementoweb-check.sh` - takes a list of URLs on standard input and checks for the presence of at least one snapshot in any web archive known by the [mementoweb.org Time Travel service](http://timetravel.mementoweb.org/about/#find) via [the Memento API](http://timetravel.mementoweb.org/guide/api/#timegate).
 
